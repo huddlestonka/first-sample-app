@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@reactive-application/material": ["libs/material/src/index.ts"],
+      "@reactive-application/testing": ["libs/testing/src/index.ts"],
+      "@reactive-application/api-interfaces": [
+        "libs/api-interface/src/index.ts"
+      ],
+      "@reactive-application/ui-toolbar": ["libs/ui-toolbar/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
